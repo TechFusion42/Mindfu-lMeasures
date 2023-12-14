@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>24-Hour Timer</title>
+  <style>
+   
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.timer {
+  text-align: center;
+}
+
+.outer-circle {
+  width: 200px;
+  height: 200px;
+  border: 10px solid #ccc;
+  border-radius: 50%;
+  position: relative;
+  margin: 20px auto;
+}
+
+.inner-circle {
+  width: 100%;
+  height: 100%;
+  background-color: #3498db;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  clip: rect(0px, 100px, 200px, 0px);
+  z-index: 1;
+  transform: rotate(90deg);
+}
+
+span {
+  font-size: 24px;
+}
+a{
+    border: 1px solid aqua;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+   margin-top: 500px;
+   right: 170px;
+   font-size: 40px;
+   background-color: aqua;
+   text-decoration: none;
+   color: white;
+}
+
+  </style>
+</head>
+<body>
+  <div class="timer">
+    <div class="outer-circle">
+      <div class="inner-circle"></div>
+    </div>
+    <span>24:00:00</span>
+  </div>
+  <a href="../Mindfulness Challenges.html">Stop</a>
+</body>
+</html>

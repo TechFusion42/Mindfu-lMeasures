@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+     
+        .container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.bookshelf {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.book {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  text-align: left;
+}
+.linkulit{
+    text-decoration: none;
+    border: 1px solid skyblue;
+   padding: 5px;
+    border-radius: 10px;
+    background-color: skyblue;
+    color: white;
+}
+header{
+    text-align: center;
+    color: rgb(67, 125, 125);
+    font-size: 50px;
+}
+.navlink{
+    display: flex;
+    list-style: none;
+}
+.a1{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(45, 44, 44);
+  position: relative;
+  left: 40px;
+    margin-left: 40px;
+}
+.a1:hover{
+    background-color: aqua;
+    padding: 15px;
+}
+.img1{
+  width: 10%;
+  border-radius: 100px;
+  margin-top: -30px;
+}
+    </style>
+</head>
+<body>
+    <header>
+       <h3>MindfulMeasures</h3>
+       <img src="./img/images.png" alt="" class="img1">
+    </header>
+    <div>
+       <hr>
+        <ul class="navlink">
+            <li><a href="guide.html" class="a1">Guided Meditation Library</a></li>
+            <li><a href="selft-care.html" class="a1">Self-Care Resources</a></li>
+            <li><a href="Mindfulness Challenges.html" class="a1">Mindfulness Challenges</a></li>
+            <li><a href="Interactive Tools.html" class="a1">Interactive Tools</a></li>
+            <li><a href="Community Support.html" class="a1">Community Support</a></li>
+            <li><a href="home.html" class="a1">Exit</a></li>
+        </ul>
+        <hr>
+    </div>
+    <div class="container">
+        <h1>Online Library</h1>
+        
+        <input type="text" id="search" placeholder="Search books">
+        
+        <div class="bookshelf">
+        
+          <div class="book">
+            <img src="./img/145401529-144-k190907.jpg" alt="">
+            <h2>A silent Heart</h2>
+            <p>Author: Mia Bee</p>
+            <a href="./read/A silent Heart.html" class="linkulit">Read</a>
+          </div>
+          
+          <div class="book">
+            <img src="./img/315005544-144-k575133.jpg" alt="">
+            <h2>Loving Lyra</h2>
+            <p>cori7g8</p>
+            <a href="./read/loving lyra.html" class="linkulit">Read</a>
+          </div>
+          
+          <div class="book">
+            <img src="./img/141522461-144-k342595.jpg" alt="">
+            <h2>Abuse mate</h2>
+            <p>Author: Book lover</p>
+            <a href="./read/Abused mate.html" class="linkulit">Read</a>
+          </div>
+
+          <div class="book">
+            <img src="./img/mawa.jpg" alt="">
+            <h2>Nothing but Heartbreak</h2>
+            <p>Author:coraleigh24</p>
+            <a href="./read/Nothing but HeartBreak.html" class="linkulit">Read</a>
+          </div>
+
+          <div class="book">
+            <img src="./img/maalaka.jpg" alt="">
+            <h2>Yours, Forever</h2>
+            <p>Author:mae ♡</p>
+            <a href="./read/Yours, forever.html" class="linkulit">Read</a>
+          </div>
+
+          <div class="book">
+            <img src="./img/subd.jpg" alt="">
+            <h2>Before Sunday</h2>
+            <p>Author: LDCrichton</p>
+            <a href="./read/Before Sunday.html" class="linkulit">Read</a>
+          </div>
+         
+        </div>
+      </div>
+      
+      <script src="script.js"></script>
+</body>
+</html>

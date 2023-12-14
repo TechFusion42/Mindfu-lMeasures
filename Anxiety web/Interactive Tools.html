@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+  
+header{
+    text-align: center;
+    color: rgb(67, 125, 125);
+    font-size: 50px;
+}
+.navlink{
+    display: flex;
+    list-style: none;
+}
+.a1{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(45, 44, 44);
+  position: relative;
+  left: 40px;
+    margin-left: 40px;
+}
+.a1:hover{
+    background-color: aqua;
+    padding: 15px;
+}
+.img1{
+  width: 10%;
+  border-radius: 100px;
+  margin-top: -30px;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #2980b9;
+}
+.babana{
+    font-size: 20px;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+       <h3>MindfulMeasures</h3>
+       <img src="./img/images.png" alt="" class="img1">
+    </header>
+    <div>
+       <hr>
+        <ul class="navlink">
+            <li><a href="guide.html" class="a1">Guided Meditation Library</a></li>
+            <li><a href="selft-care.html" class="a1">Self-Care Resources</a></li>
+            <li><a href="Mindfulness Challenges.html" class="a1">Mindfulness Challenges</a></li>
+            <li><a href="Interactive Tools.html" class="a1">Interactive Tools</a></li>
+            <li><a href="Community Support.html" class="a1">Community Support</a></li>
+            <li><a href="home.html" class="a1">Exit</a></li>
+        </ul>
+        <hr>
+    </div>
+    <h1>Mood Tracker</h1>
+  <form action="#" method="post">
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" required>
+    <br>
+    <label for="mood">Select your mood:</label>
+    <select id="mood" name="mood">
+      <option value="happy">Happy</option>
+      <option value="sad">Sad</option>
+      <option value="calm">Calm</option>
+      <option value="stressed">Stressed</option>
+      
+    </select>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+  <h1>Gratitude Journal</h1>
+  <form action="#" method="post">
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" required>
+    <br>
+    <label for="gratitude">Write down something you're grateful for:</label>
+    <textarea id="gratitude" name="gratitude" rows="4" cols="50" required></textarea>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+  <h1>Relaxation Exercise - Breathing</h1>
+  <div class="babana">
+  <p>Follow these steps:</p>
+  <ol>
+    <li>Find a quiet, comfortable place to sit or lie down.</li>
+    <li>Close your eyes and take a deep breath in through your nose.</li>
+    <li>Hold your breath for a few seconds.</li>
+    <li>Slowly exhale through your mouth.</li>
+    <li>Repeat this for several minutes, focusing only on your breath.</li>
+  </ol>
+</div>
+</body>
+</html>
